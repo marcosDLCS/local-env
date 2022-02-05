@@ -1,0 +1,12 @@
+= local-env
+
+Local environment for different OS [ 🍎  🐧  🪟 ] containing:
+
+* 🧰 ~ Custom scripts
+* 🔨 ~ Dotfiles
+* 🎯 ~ Shortcuts
+* 🥰 ~ And many more...
+
+This project is constantly __'work in progress'__.
+
+

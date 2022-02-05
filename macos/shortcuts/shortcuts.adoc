@@ -1,0 +1,8 @@
+= Shortcuts
+:toc: auto
+
+== macOS
+
+== iTerm2
+
+== intelliJ Idea
