@@ -1,0 +1,57 @@
+# Brew: General
+
+brew "bat"
+brew "ca-certificates"
+brew "curl"
+brew "dive"
+brew "dust"
+brew "exa"
+brew "fd"
+brew "fzf"
+brew "git"
+brew "git-extras"
+brew "glances"
+brew "htmlq"
+brew "htop"
+brew "httpie"
+brew "hyperfine"
+brew "jq"
+brew "k9s"
+brew "kubectx"
+brew "kubernetes-cli"
+brew "lazydocker"
+brew "navi"
+brew "prettyping"
+brew "procs"
+brew "python"
+brew "tldr"
+brew "tmux"
+brew "tokei"
+
+# Brew: Other CLI
+
+# Mas: "Mac App Store command line interface"
+# https://github.com/mas-cli/mas
+brew "mas"
+
+# Whalebrew: "Homebrew, but with Docker images"
+# https://github.com/whalebrew/whalebrew
+brew "whalebrew"
+
+# Brew: Casks
+
+# iTerm2: "iTerm2 is a replacement for Terminal and the successor to iTerm"
+# https://iterm2.com/
+cask "iterm2"
+
+# Rectangle: "Move and resize windows in macOS using keyboard shortcuts or snap areas"
+# https://rectangleapp.com/
+cask "rectangle"
+
+# Vanilla: "Hide menu bar icons on your Mac"
+# https://matthewpalmer.net/vanilla/
+cask "vanilla"
+
+# VisualVM: "All-in-One Java Troubleshooting Tool"
+# https://visualvm.github.io/
+cask "visualvm"

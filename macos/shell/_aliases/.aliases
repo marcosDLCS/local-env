@@ -1,0 +1,50 @@
+# GIT
+# https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh
+
+alias g='git'
+alias ga='git add'
+alias gb='git branch'
+alias gba='git branch -a'
+alias gco='git checkout'
+alias gl='git pull'
+alias glg='git log --oneline --decorate --graph'
+alias glo='git log --oneline --decorate'
+alias gp='git push'
+alias gr='git remote'
+alias gra='git remote add'
+alias grb='git rebase'
+alias gst='git status'
+
+# KUBECTL
+# https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/kubectl/kubectl.plugin.zsh
+
+alias k=kubectl
+alias kgd='kubectl get deployment'
+alias kgi='kubectl get ingress'
+alias kgno='kubectl get nodes'
+alias kgns='kubectl get namespaces'
+alias kgp='kubectl get pods'
+alias kgs='kubectl get svc'
+alias kpf="kubectl port-forward"
+
+# BREW
+# https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/brew/brew.plugin.zsh
+
+alias bubc='brew upgrade && brew cleanup'
+alias bubo='brew update && brew outdated'
+alias bubu='bubo && bubc'
+
+# COMMON-ALIAS
+
+alias grep='grep --color'
+alias h='history'
+alias l='exa'
+alias la='exa -a'
+alias lal='exa -al'
+alias ll='exa -lah'
+alias ls='exa --color=auto'
+alias p='ps -f'
+
+# OTHER
+
+alias sadd='ssh-add && ssh-add --apple-use-keychain'
